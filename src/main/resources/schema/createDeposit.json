@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "investordeposit_pk": {
+          "type": "string"
+        },
+        "investordeposit_code": {
+          "type": "string"
+        },
+        "investordeposit_package_name": {
+          "type": "string"
+        },
+        "investordeposit_package_statement_id": {
+          "type": "string"
+        },
+        "investordeposit_interest_rate": {
+          "type": "integer"
+        },
+        "investordeposit_actual_interest_rate": {
+          "type": "null"
+        },
+        "investordeposit_currency": {
+          "type": "null"
+        },
+        "investordeposit_status_alias": {
+          "type": "string"
+        },
+        "investordeposit_status": {
+          "type": "string"
+        },
+        "investordeposit_amount": {
+          "type": "string"
+        },
+        "investordeposit_fee_selection": {
+          "type": "string"
+        },
+        "investordeposit_profit_amount": {
+          "type": "null"
+        },
+        "investordeposit_fee": {
+          "type": "null"
+        },
+        "investordeposit_vat": {
+          "type": "null"
+        },
+        "investordeposit_cache_out_date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "investordeposit_pk",
+        "investordeposit_code",
+        "investordeposit_package_name",
+        "investordeposit_package_statement_id",
+        "investordeposit_interest_rate",
+        "investordeposit_actual_interest_rate",
+        "investordeposit_currency",
+        "investordeposit_status_alias",
+        "investordeposit_status",
+        "investordeposit_amount",
+        "investordeposit_fee_selection",
+        "investordeposit_profit_amount",
+        "investordeposit_fee",
+        "investordeposit_vat",
+        "investordeposit_cache_out_date"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "message",
+    "type",
+    "data"
+  ]
+}
